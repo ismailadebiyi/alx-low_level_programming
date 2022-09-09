@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - function to return a string
- * Return 0 as out put
+ * Return: 0 as output
  */
 int main(void)
 {
