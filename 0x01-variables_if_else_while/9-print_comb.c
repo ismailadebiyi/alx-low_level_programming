@@ -10,9 +10,16 @@ int main(void)
 int n;
 for (n = 48; n < 58; n++)
 {
+if (n == 57)
+{
+putchar(n);
+}
+else
+{
 putchar(n);
 putchar(44);
 putchar(32);
+}
 }
 return (0);
 }
