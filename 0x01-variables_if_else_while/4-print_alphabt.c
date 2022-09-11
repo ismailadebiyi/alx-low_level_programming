@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-int n = 97;
-do {
+int n;
+for (n = 97; n < 123; n++)
+{
 if ((n != 101) || (n != 113))
 {
 putchar(n);
-n++;
 }
-} while (n < 123);
+}
 putchar(10);
 return (0);
 }
