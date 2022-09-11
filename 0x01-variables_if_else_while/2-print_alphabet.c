@@ -7,10 +7,13 @@
  */
 int main(void)
 {
-for (int n = 97; n < 123; n++)
+int n = 97;
+do
 {
 putchar(n);
+n++
 }
+while (n < 123)
 putchar(10);
 return (0);
 }

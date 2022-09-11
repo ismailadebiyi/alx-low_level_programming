@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - function takes in the last digit of a random number 
+ * main - function takes in the last digit of a random number
  * and check if its negative or positive
  * Return: 0
  */
