@@ -19,8 +19,7 @@ else
 {
 putchar(i + 48);
 putchar(j + 48);
-}
-if ((i == 8) || (j ==9))
+if ((i == 8) && (j ==9))
 {
 ;
 }
@@ -28,6 +27,7 @@ else
 {
 putchar(44);
 putchar(32);
+}
 }
 }
 }
