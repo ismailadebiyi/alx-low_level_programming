@@ -12,12 +12,11 @@ int i = 65;
 do {
 putchar(n);
 n++;
-}
-while (n < 123);
+} while (n < 123);
 do {
 putchar(i);
 i++;
-}while (i < 91);
+} while (i < 91);
 putchar(10);
 return (0);
 }
