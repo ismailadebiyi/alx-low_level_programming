@@ -2,22 +2,19 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - function list all the alphabelt in  both small and capital letter.
+ * main - function list all the alphabelt in small letter without a and q.
  * Return: 0
  */
 int main(void)
 {
 int n = 97;
-int i = 65;
 do {
+if (n != 101 || n != 113)
+{
 putchar(n);
 n++;
 }
-while (n < 123);
-do {
-putchar(i);
-i++;
-}while (i < 91);
+} while (n < 123);
 putchar(10);
 return (0);
 }
