@@ -11,9 +11,9 @@ int n = 97;
 do
 {
 putchar(n);
-n++
+n++;
 }
-while (n < 123)
+ while (n < 123);
 putchar(10);
 return (0);
 }
