@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - function that list 0-9.
+ * main - function list frpm 0-9 using putchar function.
  * Return: 0
  */
 int main(void)
 {
 int n;
-for (n = 0; n < 10; n++)
+for (n = 48; n < 58; n++)
 {
-printf("%d",n);
+putchar(n);
 }
-printf("\n");
+putchar(10);
 return (0);
 }
