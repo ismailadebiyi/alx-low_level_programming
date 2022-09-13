@@ -6,6 +6,7 @@
  * _islower - check is the alphabet is in lower case
  * _isalpha - check for alphabet
  * print_sign - print signed number
+ * _abs - compute the absolute value of an integal
  */
 int _putchar(char c);
 
@@ -19,3 +20,4 @@ int _isalpha(int c);
 
 int print_sign(int n);
 
+int _abs(int);
