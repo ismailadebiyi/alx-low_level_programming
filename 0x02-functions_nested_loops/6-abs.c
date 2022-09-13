@@ -3,10 +3,10 @@
 /**
  * _abs - compute the absolute value of a given no
  * @n: given Interger
- * Return: abs value of n 
+ * Return: abs value of n
  */
 int _abs(int n)
 {
-	return(abs(n));
+	return (abs(n));
 }
 

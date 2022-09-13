@@ -7,6 +7,8 @@
  * _isalpha - check for alphabet
  * print_sign - print signed number
  * _abs - compute the absolute value of an integal
+ * print_last_digit - compute the absolute last digit of a no
+ *
  */
 int _putchar(char c);
 
@@ -21,3 +23,5 @@ int _isalpha(int c);
 int print_sign(int n);
 
 int _abs(int);
+
+int print_last_digit(int);
