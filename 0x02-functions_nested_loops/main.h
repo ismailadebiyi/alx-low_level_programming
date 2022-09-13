@@ -5,6 +5,7 @@
  * print_alphabet_x10 - print alphabet 10 times
  * _islower - check is the alphabet is in lower case
  * _isalpha - check for alphabet
+ * print_sign - print signed number
  */
 int _putchar(char c);
 
@@ -15,3 +16,6 @@ void print_alphabet_x10(void);
 int _islower(int c);
 
 int _isalpha(int c);
+
+int print_sign(int n);
+
