@@ -2,9 +2,11 @@
 #include "main.h"
 /**
  * _abs - compute the absolute value of a given no
- * @n: given Interger 
+ * @n: given Interger
+ * Return: abs value of n 
  */
 int _abs(int n)
 {
-	abs(n);
+	return(abs(n));
 }
+
