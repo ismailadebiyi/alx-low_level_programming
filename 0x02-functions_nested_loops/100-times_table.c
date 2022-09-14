@@ -1,7 +1,6 @@
 #include "main.h"
-#include <math.h>
 /**
- * times_table - compute multiplication table of 0-@n
+ * times_table - compute multiplication table of 0-n
  * @n: no of multiplication matrix
  */
 void print_times_table(int n)
@@ -13,9 +12,10 @@ void print_times_table(int n)
 	else
 	{
 		int i, j;
-		for (i = 0; i <= 9; i++)
+
+		for (i = 0; i <= n; i++)
 		{
-			for (j = 0; j <= 9; j++)
+			for (j = 0; j <= n; j++)
 				{
 					int s = (i * j);
 					if (j == 0)
@@ -28,7 +28,7 @@ void print_times_table(int n)
 						{
 							_putchar(',');
 							_putchar(' ');
-							_putchar((s/100) + '0');
+							_putchar((s / 100) + '0');
 							_putchar(((s / 10) % 10) + '0');
 							_putchar((s % 10) + '0');
 						}
