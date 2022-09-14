@@ -8,7 +8,7 @@
  * print_sign - print signed number
  * _abs - compute the absolute value of an integal
  * print_last_digit - compute the absolute last digit of a no
- *
+ * add - add two integers
  */
 int _putchar(char c);
 
@@ -25,3 +25,5 @@ int print_sign(int n);
 int _abs(int);
 
 int print_last_digit(int);
+
+int add(int, int);
