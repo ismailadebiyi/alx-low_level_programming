@@ -12,7 +12,7 @@
  * print_to_98 - count up or down to 98
  * times_table - set times table from 0 -9
  * jack_bauer - count timer from 00:00 to 23:59
- *
+ * print_times_table - compute times table from 0 - 15
  */
 int _putchar(char c);
 
@@ -37,3 +37,5 @@ void print_to_98(int n);
 void times_table(void);
 
 void jack_bauer(void);
+
+void print_times_table(int n);
