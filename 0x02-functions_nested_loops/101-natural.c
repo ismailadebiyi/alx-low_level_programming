@@ -17,4 +17,5 @@ int main(void)
 		}
 	}
 	printf("%u", s);
+	return (0);
 }
