@@ -9,16 +9,19 @@ int main(void)
 	int i;
 
 	printf("%ld, %ld, ", f, s);
-	for (i = 2; i < 50; i++)
+	for (i = 3; i <=50; i++)
 	{
 		n = f + s;
-		if (i == 49)
+		if (i < 50)
+		{
+			printf("%ld, ", n);
+			f = s;
+			s = n;
+		}
+		else
 		{
 			printf("%ld", n);
 		}
-		printf("%ld, ", n);
-		f = s;
-		s = n;
 	}
 	printf("\n");
 	return (0);
