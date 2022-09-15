@@ -14,7 +14,7 @@ int main(void)
 		n = f + s;
 		if ( i == 49)
 		{
-			printf("%ld", n)
+			printf("%ld", n);
 		}
 		printf("%ld, ", n);
 		f = s;
