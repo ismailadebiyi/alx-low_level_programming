@@ -16,5 +16,5 @@ int main(void)
 			s+=i;
 		}
 	}
-	printf("%lu", s);
+	printf("%u", s);
 }
