@@ -15,7 +15,7 @@ int main(void)
 		f = s;
 		s = n;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
 
