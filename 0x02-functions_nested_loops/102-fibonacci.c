@@ -12,7 +12,7 @@ int main(void)
 	for (i = 2; i < 50; i++)
 	{
 		n = f + s;
-		if (i = 49)
+		if (i == 49)
 		{
 			printf("%ld", n);
 		}
