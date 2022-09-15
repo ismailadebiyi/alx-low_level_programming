@@ -9,7 +9,7 @@ int main(void)
 	int i;
 
 	printf("%ld, %ld, ", f, s);
-	for (i = 3; i <=50; i++)
+	for (i = 3; i <= 50; i++)
 	{
 		n = f + s;
 		if (i < 50)
