@@ -5,7 +5,7 @@
  * @c: parameter to check.
  * Return: 1 if true or 0 if false
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 	if (isdigit(c))
 	{
