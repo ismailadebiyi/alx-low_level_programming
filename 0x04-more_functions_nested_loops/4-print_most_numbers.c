@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_numbers - print the last digit of a given number
+ * print_most_numbers - print the last digit of a given number
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
