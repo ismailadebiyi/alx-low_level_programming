@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_numbers - print the last digit of a given number
- * 
  */
 void print_numbers(void)
 {
@@ -11,5 +10,6 @@ void print_numbers(void)
 	{
 		_putchar(i + '0');
 	}
+	_putchar('\n');
 }
 
