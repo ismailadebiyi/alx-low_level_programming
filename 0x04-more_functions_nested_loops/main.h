@@ -10,8 +10,8 @@
  * print_line - print _ n times
  * print_daigonal - print \ n times
  * print_square - print # n by n times
- * print_last_digit - compute the absolute last digit of a no
- * 
+ * print_triangle - priny triangle
+ *
  */
 int _putchar(char c);
 
@@ -32,3 +32,5 @@ void print_line(int n);
 void print_diagonal(int n);
 
 void print_square(int size);
+
+void print_triangle(int size);
