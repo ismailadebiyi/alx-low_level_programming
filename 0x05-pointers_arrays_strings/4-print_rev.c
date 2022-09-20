@@ -5,7 +5,7 @@
  * @str: string
  *
  */
-void _puts(char *str)
+void print_rev(char *str)
 {
 	int i = 0, v = 0;
 
