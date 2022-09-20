@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 /**
  * _puts - print a string to stdout
  * @str: string
@@ -11,6 +11,6 @@ void _puts(char *str)
 
 	for (i = 0; i < *(str + i); i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
 }
