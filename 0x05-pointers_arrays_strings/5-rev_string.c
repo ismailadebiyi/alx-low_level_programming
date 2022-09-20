@@ -18,6 +18,6 @@ void rev_string(char *s)
 		_putchar(i + '0');
 		*(s + v) = s[i];
 		v++;
-		_putchar(v + '0')
+		_putchar(v + '0');
 	}
 }
