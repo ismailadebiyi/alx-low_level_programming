@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _puts - print a string to stdout
+ * _print_rev - print a string to stdout
  * @str: string
  *
  */
