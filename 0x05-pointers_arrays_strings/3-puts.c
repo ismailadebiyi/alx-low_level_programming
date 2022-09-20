@@ -11,6 +11,6 @@ void _puts(char *str)
 
 	for (i = 0; i < *(str + i); i++)
 	{
-		_putchar(i + '0');
+		_putchar(*(str + i) + '0');
 	}
 }
