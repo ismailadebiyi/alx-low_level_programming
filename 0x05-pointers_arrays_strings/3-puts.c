@@ -3,7 +3,7 @@
 /**
  * _puts - print a string to stdout
  * @str: string
- * 
+ *
  */
 void _puts(char *str)
 {
@@ -11,6 +11,6 @@ void _puts(char *str)
 
 	for (i = 0; i < *(str + i); i++)
 	{
-		_putchar(i);
+		_putchar(i + '0');
 	}
 }
