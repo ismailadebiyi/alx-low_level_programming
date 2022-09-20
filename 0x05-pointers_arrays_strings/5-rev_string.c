@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * rev_string - reverse the character of an array string
  * @s: array string pointer
@@ -11,13 +12,13 @@ void rev_string(char *s)
 	while (*(s + i) != '\0')
 	{
 		i++;
-		_putchar(i + '0');
+		printf("%d\n", i);
 	}
 	while (i--)
 	{
-		_putchar(i + '0');
+		
 		*(s + v) = s[i];
+		printf("%d      %d\n", i, v);
 		v++;
-		_putchar(v + '0');
 	}
 }
