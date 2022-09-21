@@ -3,7 +3,7 @@
  * _strcpy - copy string from crc to destination
  * @dest: destination
  * @src: source
- * return: value of the destination pointer
+ * return: dest value of the destination pointer
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -15,5 +15,5 @@ char *_strcpy(char *dest, char *src)
 	}
 	dest[i] = '\0';
 
-	return dest;
+	return (dest);
 }
