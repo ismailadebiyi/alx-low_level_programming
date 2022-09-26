@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _memset - fill the first n bytes of memory pointed to by s with b 
+ * _memset - fill the first n bytes of memory pointed to by s with b
  * @s: memory pointer
  * @b: constant to be filled with
  * @n: number of byte to be filled
+ * Return: pointer s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
