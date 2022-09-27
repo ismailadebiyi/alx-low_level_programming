@@ -3,7 +3,7 @@
  * _strchr - pointer of the first occurence of a string
  * @s: full string
  * @c: character to check for
- * Return: pointer 
+ * Return: pointer
  */
 char *_strchr(char *s, char c)
 {
@@ -16,6 +16,10 @@ char *_strchr(char *s, char c)
 			return (s + i);
 		}
 		i++;
+	}
+	if (s[i] == c)
+	{
+		return (s + i);
 	}
 	return (0);
 }
