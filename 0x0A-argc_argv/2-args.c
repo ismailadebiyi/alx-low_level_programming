@@ -34,6 +34,5 @@ int main(int argc, char *argv[])
 	{
 		_writechar("No command");
 	}
-	_writechar("\n");
 	return (0);
 }
