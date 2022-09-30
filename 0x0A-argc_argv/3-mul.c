@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
  * main - find the producr of argurment
  * @argc: agurgment count
@@ -11,20 +10,19 @@
 int main(int argc, char*argv[])
 {
 	int i, p = 1;
-	
+
 	if (argc > 2)
 	{
 		for (i = 1; i < argc; i++)
 		{
 			p *= atoi(argv[i]);
 		}
-		printf("%d", p);
-		return (0);
+		printf("%d\n", p);
 	}
 	else
 	{
-		printf("%s", "Error");
+		printf("Error\n");
+		return (1);
 	}
-	printf("\n");
 	return (0);
 }
