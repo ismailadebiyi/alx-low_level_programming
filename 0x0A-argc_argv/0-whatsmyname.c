@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _writechar - write all char
- * Return: char
+ * @s: char to be written
  */
 void _writechar(char *s)
 {
@@ -13,7 +13,9 @@ void _writechar(char *s)
 }
 
 /**
- * main - print all argument 
+ * main - print all argument
+ * @argc: Argument count
+ * @argv: Argument array
  * Return: 0
  */
 int main(int argc, char *argv[])
@@ -34,4 +36,3 @@ int main(int argc, char *argv[])
 	_writechar("\n");
 	return (0);
 }
-
