@@ -3,12 +3,12 @@
  * _writechar - write all char
  * Return: char
  */
-char _writechar(char *s)
+void _writechar(char *s)
 {
 	if (*s != '\0')
 	{
 		_putchar(s[0]);
-		return(_writechar(s + 1));
+		_writechar(s + 1);
 	}
 }
 
@@ -29,9 +29,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		_writechar('No command');
+		_writechar("No command");
 	}
-	_putchar('\n');
+	_writechar("\n");
 	return (0);
 }
 
