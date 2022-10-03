@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - find the sum of argurment
  * @argc: agurgment count
@@ -28,7 +29,7 @@ int main(int argc, char *argv[])
 		{
 			s += atoi(argv[i]);
 		}
-		printf("%d\n", p);
+		printf("%d\n", s);
 	}
 	else
 	{
