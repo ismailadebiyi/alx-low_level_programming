@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 2)
 	{
-		if (atoi(atgv[1]) > 0)
+		if (atoi(argv[1]) > 0)
 		{
 			ch = chkchg(atoi(argv[1]));
 			printf("%d\n", ch);
