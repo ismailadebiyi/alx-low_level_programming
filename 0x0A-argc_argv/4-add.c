@@ -3,15 +3,15 @@
 #include <ctype.h>
 
 /**
- * main - adds numbers
- * @argc: number of arguments passed to the function
- * @argv: argument vector of pointers to strings
+ * main - addition of arguments
+ * @argc: number of arguments counts
+ * @argv: argument array
  *
  * Return: 0 if no errors, else 1
  */
 int main(int argc, char *argv[])
 {
-	int a = 0, i, j;
+	int s = 0, i, j;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -19,14 +19,14 @@ int main(int argc, char *argv[])
 		{
 			if (isdigit(argv[i][j]) == 0)
 			{
-				puts("Error");
+				printf("Error");
 				return (1);
 			}
 		}
 	}
 	for (i = 1; i < argc; i++)
 	{
-		a += atoi(argv[i]);
+		s += atoi(argv[i]);
 	}
-	printf("%d\n", a);
+	printf("%d\n", s);
 	return (0);
