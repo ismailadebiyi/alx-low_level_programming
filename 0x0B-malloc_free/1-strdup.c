@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <limits.h>
 /**
  * _strdup -returns a pointerof a newly allocated
  * string
@@ -24,7 +26,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (index = 0; str[i]; i++)
+	for (i = 0; str[i]; i++)
 	{
 		cp[i] = str[i];
 	}
