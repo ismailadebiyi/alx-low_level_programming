@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <limits.h>
 /**
- * _str_concat -returns a pointer of a newly allocated
+ * str_concat -returns a pointer of a newly allocated
  * concatinated string
  * @s1: given string 1
  * @s2: given string 2
