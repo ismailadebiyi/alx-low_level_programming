@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * init_dog - initiallize dog 
+ * init_dog - initiallize dog
  * @d: dog Object
  * @name: name of dog
  * @owner: Dog owner
