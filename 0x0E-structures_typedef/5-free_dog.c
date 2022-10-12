@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
-#include <stdio.h>
+
 /**
  * free_dog - free all dogs
  * @d: pointer object
