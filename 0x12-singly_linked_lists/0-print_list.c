@@ -3,7 +3,7 @@
 /**
  * print_list - print list content and count
  * @h: list pointer
- * Return the size of the list
+ * Return: the size of the list
  */
 size_t print_list(const list_t *h)
 {
