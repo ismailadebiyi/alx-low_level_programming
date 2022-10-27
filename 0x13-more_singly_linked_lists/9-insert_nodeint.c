@@ -1,25 +1,41 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - get the node at index n
+ * insert_nodeint_at_index - insert at some index node
  * @head: head node pointer
- * @index: index node
- * Return: node at index x or NULL if the index does not exist
- *
+ * @idx: index to be inserted into
+ * @n: integer to be inserted
+ * Return: address to the new node or NULL if it failed
  */
 
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	size_t nodes = 0;
+	listint_t *new, *current;
+	size_t i = 0;
 
-	while (nodes != index)
+	new = malloc(sizeof(listint_t));
+	if (new == NULL)
 	{
-		if (head == NULL)
+		return (NULL);
+	}
+	current = *head;
+	new->n = n;
+	if (idx == 0)
+	{
+		new->next = current;
+		*head = new;
+		return (new);
+	}
+	while (i != idx)
+	{
+		if (current == NULL || current->next == NULL)
 		{
 			return (NULL);
 		}
-		head = head->next;
-		nodes++;
+		current = current->next;
+		i++;
 	}
-	return (head);
+	new->next = current->next;
+	current->next = new;
+	return (new);
 }
