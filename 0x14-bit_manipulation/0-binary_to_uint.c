@@ -8,7 +8,7 @@
  *         b is NULL
 */
 
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int dec = 0;
 	int i = 0;
@@ -19,7 +19,7 @@ unsigned int binary_to_unit(const char *b)
 	}
 	while (b[i] != '\0')
 	{
-		if (b[i] != 0 || b[i] != 1)
+		if (b[i] < '0' || b[i] > '1')
 		{
 			return (0);
 		}
