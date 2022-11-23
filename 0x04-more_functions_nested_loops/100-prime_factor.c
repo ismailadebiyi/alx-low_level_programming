@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main- compute prime factors
+ * main - compute prime factors
+ * Return: 0
  */
 int main(void)
 {
@@ -22,7 +23,6 @@ int main(void)
 				;
 			}
 		}
-		
 	}
 	printf("%ld\n", i);
 	return (0);
